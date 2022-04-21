@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         for (i in 2..num / 2) {
-            // condition for nonprime number
             if (num % i == 0) {
                 return false
                 break
